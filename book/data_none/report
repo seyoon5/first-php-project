@@ -1,0 +1,67 @@
+ <!-- 감상/토론 게시판 시작 -->
+    <div class="board_wrap">
+        <div class="board_title">
+            <p><strong>감상 / 토론</strong></p>
+        </div>
+        <div class="board_list_wrap">
+            <div class="board_list">
+                <div class="top">
+                    <div class="num">번호</div>
+                    <div class="title">제목</div>
+                    <div class="writer">작성자</div>
+                    <div class="date">작성일</div>
+                    <div class="count">조회수</div>
+                </div>
+                <div>
+                    <div class="num">5</div>
+                    <div class="title"><a href="boardReportView.php">더 해빙에 대하여</a></div>
+                    <div class="writer">이서윤</div>
+                    <div class="date">2021.8.23</div>
+                    <div class="count">2</div>
+                </div>
+                <div>
+                    <div class="num">4</div>
+                    <div class="title"><a href="boardReportView.php">돈의 속성 어떠신지..</a></div>
+                    <div class="writer">김승호</div>
+                    <div class="date">2021.8.23</div>
+                    <div class="count">2</div>
+                </div>
+                <div>
+                    <div class="num">3</div>
+                    <div class="title"><a href="boardReportView.php">데미안을 집필한 후..</a></div>
+                    <div class="writer">헤르만 헤세</div>
+                    <div class="date">2021.8.23</div>
+                    <div class="count">2</div>
+                </div>
+                <div>
+                    <div class="num">2</div>
+                    <div class="title"><a href="boardReportView.php">시작의 기술에 대한 나의 생각</a></div>
+                    <div class="writer">개리 비숍</div>
+                    <div class="date">2021.8.23</div>
+                    <div class="count">2</div>
+                </div>
+                <div>
+                    <div class="num">1</div>
+                    <div class="title"><a href="boardReportView.php">지금 이대로 좋다</a></div>
+                    <div class="writer">법륜</div>
+                    <div class="date">2021.8.23</div>
+                    <div class="count">2</div>
+                </div>
+            </div>
+            <div class="board_page">
+                <a href="#" class="bt frist">◁◁</a>
+                <a href="#" class="bt prev">◁</a>
+                <a href="#" class="num on">1</a>
+                <a href="#" class="num">2</a>
+                <a href="#" class="num">3</a>
+                <a href="#" class="num">4</a>
+                <a href="#" class="num">5</a>
+                <a href="#" class="bt next">▷</a>
+                <a href="#" class="bt last">▷▷</a>
+            </div>
+            <div class="bt_wrap">
+                <a href="boardReportWrite.php" class="on">글쓰기</a>
+            </div>
+        </div>
+    </div>
+    <!-- 자유게시판 끝 -->

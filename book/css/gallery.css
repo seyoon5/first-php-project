@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: sandybrown;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.wrap{
+    display: table;
+    text-align: center;
+}
+/* 구분 */
+div.gallery {
+    display: inline-block;
+    padding: 5% 5% 5% 5%;
+    height: 300px;
+    width: 180px;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+

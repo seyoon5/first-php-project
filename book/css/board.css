@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 10px;
+}
+ul, li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.board_wrap{
+    width: 1000px;
+    margin: 100px auto;
+}
+
+.board_title {
+    margin-bottom: 30px;
+}
+
+.board_title strong{
+    font-size: 3rem;
+}
+
+.bt_wrap{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0;
+    background-color: #fff;
+    float: right;
+}
+.bt_wrap a{
+    display: inline-block;
+    min-width: 80px;
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 2px;
+    font-size: 1.4px;
+}
+.bt_wrap a:first-child{
+    margin-left: 0;
+}
+.bt_wrap a.on{
+    background: #000;
+    color: #fff;
+}
+.bt_wrap input[type="submit"]{
+    width: 100px;
+    height: 35px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+    font-size: 1.7px;
+    cursor: pointer;
+}
+
+.board_list{
+    width: 100%;
+    border-top: 2px solid #000;
+}
+
+.board_list > div {
+    border-bottom: 1px solid #ddd;
+    font-size: 0;
+}
+
+.board_list > div .top {
+    border-bottom: 1px solid #999;
+}
+
+.board_list > div:last-child{
+    border-bottom: 1px solid #000;
+}
+
+.board_list > div > div{
+    display: inline-block;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 1.4rem;
+}
+.board_list > div.top > div{
+    font-weight: 600;
+}
+
+.board_list .num{
+    width: 10%;
+}
+.board_list .title{
+    width: 60%;
+    text-align: left;
+}
+.board_list .top .title{
+    text-align: center;
+}
+.board_list .writer{
+    width: 10%;
+}
+.board_list .date{
+    width: 10%;
+}
+.board_list .count{
+    width: 10%;
+}
+
+.board_page{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0;
+}
+.board_page a{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-left: 0;
+    vertical-align: middle;
+    line-height: 100%;
+}
+
+.board_page a.bt{
+    font-size: 1.2rem;
+    padding-top: 10px;
+    letter-spacing: -1px;
+}
+.board_page a.num{
+    font-size: 1.4rem;
+    padding-top: 9px;
+}
+.board_page a.num.on{
+    border-color: #000;
+    background: #000;
+    color: #fff;
+}
+.board_page a:first-child{
+    border-left: 1px solid #ddd;
+}
+/*  ~ 자유게시판 */
+
+.board_view{
+    width: 100%;
+    border-top: 2px solid #000;
+    font-size: 15px;
+}
+
+.board_view .title{
+    padding: 20px 15px;
+    border-bottom: 1px dashed #ddd;
+    font-size: 2rem;
+}
+
+.board_view .info{
+    padding: 15px;
+    border-bottom: 1px solid #999;
+    font-size: 0;
+}
+
+.board_view .info dl{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.board_view .info dl dt,
+.board_view .info dl dd{
+    display: inline-block;
+    font-size: 1.4rem;
+}
+.board_view .info dl:first-child{
+    padding-left: 0;
+}
+
+.board_view .info dl dd{
+    margin-left: 10px;
+    color: #777;
+}
+
+.board_view .cont{
+    padding: 30px;
+    border-bottom: 1px solid #000;
+
+}
+/*  ~ 작성한 글 */
+
+.board_write{
+    border-top: 2px solid #000;
+}
+
+.board_write .title,
+.board_write .info{
+    padding: 15px;
+}
+
+.board_write .info{
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px solid #000;
+    font-size: 0;
+}
+
+.board_write .title dl{
+    font-size: 0;
+}
+
+.board_write .info dl{
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+
+}
+
+
+.board_write .title dt,
+.board_write .title dd,
+.board_write .info dt,
+.board_write .info dd{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.4rem;
+}
+
+.board_write .title dt,
+.board_write .info dt{
+    width: 100px;
+}
+
+.board_write .title dd{
+    width: calc(100% - 100px);
+}
+
+.board_write .title input[type="text"],
+.board_write .info input[type="text"],
+.board_write .info input[type="password"]{
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.board_write .title input[type="text"]{
+    width: 50%;
+}
+.board_write .title input[type="file"]{
+    padding-left: 120px;
+}
+
+div .imgFile{
+    float: right;
+}
+.board_write .cont{
+    border-bottom: 1px solid #000;
+}
+
+.board_write .cont textarea{
+    display: block;
+    width: 100%;
+    height: 300px;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 0;
+    resize: vertical;
+}
+/* 검색창 */
+
+.search{
+    text-align: center;
+    margin-top: 3%;
+}
+
+.search .select{
+    font-size: 15px;
+    height: 30px;
+    padding: 5px;
+}
+
+.search input[type="text"]{
+    font-size: 15px;
+    height: 30px;
+    width:  30%;
+}
+.search button{
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    height: 30px;
+    width: 40px;
+}
+
+/* 댓글 */
+.reply_view {
+	width:900px;
+	margin-top:100px; 
+	word-break:break-all;
+}
+.reply_view h2{
+margin-bottom: 10px;
+}
+
+.dap_lo {
+	font-size: 17px;
+	padding:10px 0 15px 0;
+}
+.dap_lo #name{
+	font-size: 20px;
+}
+
+.dap_lo form{
+display: inline-block;
+}
+
+.line{
+    border-bottom: solid 1px gray;
+
+}
+.dap_to {
+	margin-top:5px;
+}
+.rep_me {
+	font-size:12px;
+}
+.rep_me ul li {
+	float:left;
+	width: 30px;
+}
+.dat_delete {
+	display: none;
+}	
+.dat_edit {
+	display:none;
+}
+.dat_edit_bt {
+    display: inline-block;
+}
+.dat_delete_bt {
+    display: inline-block;
+}
+.dap_sm {
+	position: absolute;
+	top: 10px;
+}
+.dap_edit_t{
+	width:520px;
+	height:70px;
+	position: absolute;
+	top: 40px;
+}
+.re_mo_bt {
+	position: absolute;
+	top:40px;
+	right: 5px;
+	width: 90px;
+	height: 72px;
+}
+#re_content {
+	width:700px;
+	height: 56px; 
+}
+.dap_ins {
+	margin-top:50px;
+}
+.re_bt {
+	position: absolute;
+	width:100px;
+	height:56px;
+	font-size:16px;
+	margin-left: 10px; 
+}
+#foot_box {
+	height: 50px; 
+}

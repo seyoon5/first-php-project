@@ -1,0 +1,66 @@
+* {box-sizing: border-box}
+
+/* style the container */
+.container{
+padding: 5% 30% 5% 30%;
+background-size: 100%;
+background-color: #f2f2f2;
+}
+.container div .checkbox{
+  display: inline-block;
+  }
+
+/* style inputs and link buttons */
+input,
+.btn {
+  width: 100%;
+  padding: 20px;
+  border: none;
+  border-radius: 4px;
+  margin: 5% 0px;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+
+/* style the submit button */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+input[type=checkbox]{
+  width: 10%;
+}
+
+
+
+/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+  /* hide the vertical line */
+  .vl {
+    display: none;
+  }
+  /* show the hidden text on small screens */
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+  }
+}

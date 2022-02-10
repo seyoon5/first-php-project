@@ -1,0 +1,58 @@
+div.wrap{
+    text-align: center;
+    padding: 20%;
+}
+
+h1 {
+    color: darkslateblue;
+    display: inline-block;
+}
+
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+div.pwd {
+    display: inline-block;
+    padding-left: 20px;
+}
+div.chk{
+    display: inline-block;
+
+padding-left: 20px;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+
+/* 전체 이미지 */
+  body, html {
+    height: 100%;
+    margin-top: 0%;
+  }
+  body {
+    /* The image used */
+    background-color: rgb(255, 254, 249);
+  
+    /* Full height */
+    height: 10%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }

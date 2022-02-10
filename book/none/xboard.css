@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+table{
+border-collapse: collapse;
+}
+
+caption {
+    border-spacing: 30px;
+    font-style:oblique;
+    font-size: 50px;
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.board_list_wrap{
+padding: 50px;
+}
+
+.board_list{
+width: 100%;
+border-top: 2px solid navy;
+margin-top: 30px;
+}
+
+.board_list tr{
+    border-bottom: 1px solid #ccc;
+}
+
+.board_list th,
+.board_list td {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.board_list td{
+    text-align: center;
+}
+
+.board_list .title {
+    text-align: left;
+}
+
+.board_list .title:hover {
+    text-decoration: underline;
+}
+
+.board_list_wrap .paging{
+text-align: center;
+    margin-top: 30px;
+}
+.board_list_wrap .paging a{
+    padding: 10px;
+}
